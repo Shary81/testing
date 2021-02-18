@@ -1,6 +1,6 @@
 name: 'FTP Deploy'
 description: 'Automate deploying websites and more with this GitHub action'
-author: 'Sherry'
+author: 'Sam Kirkland'
 inputs:
     server:
       required: true
