@@ -23,9 +23,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-     name:  Sync files
-      uses: Shary81/testing@v1.0
-      with:
-        server: ftp.warmprospect.com
-        username: warmprospect
-        password: D{G*GS$RN}0y
+      - name: Sync files
+        uses: Shary81/testing@v1.0
+        with:
+          server: ftp.warmprospect.com
+          username: warmprospect
+          password: D{G*GS$RN}0y
