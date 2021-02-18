@@ -23,8 +23,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2.3.2
 
-      - name: Sync files
-        uses: Shary81/testing@master
+        name: Sync files
+      - uses: Shary81/testing@master
         with:
           server: ftp.warmprospect.com
           username: warmprospect
