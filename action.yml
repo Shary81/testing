@@ -42,8 +42,8 @@ inputs:
       required: false
       description: 'strict or loose'
 runs:
-  using: 'node12'
-  main: 'dist/index.js'
-branding:
-  icon: 'upload-cloud'
-  color: 'orange'
+  uses: Shary81/testing@v1.0
+    with:
+    server: ftp.warmprospect.com
+    username: warmprospect@app.warmprospect.com
+    password: K&davv?@@8U7$
