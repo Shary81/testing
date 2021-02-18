@@ -5,12 +5,14 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: Get latest code
-      uses: actions/checkout@v2.3.2
+    
     
     - name: Sync files
-      uses: Shary81/testing@master
+      uses: Shary81/testing@v1.0
       with:
         server: ftp.warmprospect.com
         username: warmprospect
         password: D{G*GS$RN}0y
+
+    - name: Get latest code
+      uses: actions/checkout@v2.3.2
